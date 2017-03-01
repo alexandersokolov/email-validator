@@ -24,6 +24,20 @@ public class validateEmail
 		{
 			result = false;
 		}
+		
+		//Check if the email is at least 8 characters long
+		if(email.length()<8)
+		{
+			result = false;
+		}
+		
+		//Check if the email is 25 characters of less
+		if(email.length()>25)
+		{
+			result = false;
+		}
+		
 		return result;
+
 	}
 }
