@@ -40,6 +40,8 @@ public class MyUI extends UI {
         layout.setSpacing(true);
         
         setContent(layout);
+        //
+        //
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
